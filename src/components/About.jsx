@@ -7,8 +7,8 @@ import './About.css';
 export default class About extends Component {
     render() {
         return (
+            <div>
             <Grid>
-                <Jumbotron>
                 <Row className="show-grid text-center">
                     <Col xs={12} sm={6} className="person-wrapper">
                         <Image src="images/me.jpg" circle responsive className="profile-pic" />
@@ -18,9 +18,8 @@ export default class About extends Component {
                         <p>MSCS at Northeastern University.</p>
                     </Col>
                 </Row>
-                </Jumbotron>
-                
             </Grid>
+            </div>
         );
     }
 }

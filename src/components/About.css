@@ -1,3 +1,8 @@
-.jumbotron {
-    height: 100vh;
+.about {
+    background-image: url('../assets/about_bg.jpg');
+    height: auto; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
