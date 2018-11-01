@@ -30,3 +30,18 @@
     transform: rotate(360deg);
   }
 }
+
+.background {
+  background-image: url('assets/pinkwatercolorbackground.jpg');
+  height: auto; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.body {
+  height: 100%;
+  margin: 0;
+  padding: 1em;
+}
